@@ -61,7 +61,13 @@ tail_includes:
       <em>
       {% if authors %}
         {% for author in authors %}
-          <a href="{{ site.data.authors[author].url }}">{{ site.data.authors[author].name }}</a>
+          <a href="{{ site.data.authors[author].url }}" 
+          {% if site.data.authors[author].urlexternal %}
+            target="_blank"
+            {% assign link_types = 'noopener noreferrer' %}
+          {% endif %}
+          >{{ site.data.authors[author].name }}
+        </a>
           {% unless forloop.last %}</em>, <em>{% endunless %}
         {% endfor %}
       {% else %}

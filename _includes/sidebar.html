@@ -44,6 +44,25 @@
       </li>
       <!-- .nav-item -->
     {% endfor %}
+    <li class="nav-item">
+      <a href="https://ayushgupta.me/" class="nav-link" target="_blank">
+        <i class="fa-fw fas fa-info-circle"></i>
+        {% capture tab_name %}{{ 'About' }}{% endcapture %}
+
+        <span style="margin-right: 0.5rem;">{{ tab_name | upcase }}</span>
+        <i class="fa-fw fas fa-external-link"></i>
+      </a>
+    </li>
+
+    <li class="nav-item">
+      <a href="https://ayushgupta.me/resume.pdf" class="nav-link" target="_blank">
+        <i class="fa-fw fas fa-info-circle"></i>
+        {% capture tab_name %}{{ 'Resume' }}{% endcapture %}
+
+        <span style="margin-right: 0.5rem;">{{ tab_name | upcase }}</span>
+        <i class="fa-fw fas fa-external-link-alt"></i>
+      </a>
+    </li>
   </ul>
   <!-- ul.nav.flex-column -->
 

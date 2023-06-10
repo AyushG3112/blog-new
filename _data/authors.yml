@@ -6,12 +6,9 @@
 #   url: {homepage_of_author}
 # -------------------------------------
 
-cotes:
-  name: Cotes Chung
-  twitter: cotes2020
-  url: https://github.com/cotes2020/
+AyushG3112:
+  name: Ayush Gupta
+  twitter: AyushG3112
+  url: https://ayushgupta.me/
+  urlexternal: true
 
-sille_bille:
-  name: Dinesh Prasanth Moluguwan Krishnamoorthy
-  twitter: dinesh_MKD
-  url: https://github.com/SilleBille/
