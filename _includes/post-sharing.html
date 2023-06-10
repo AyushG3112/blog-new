@@ -5,7 +5,8 @@
   <span class="share-icons">
     {% capture title %}{{ page.title }} - {{ site.title }}{% endcapture %}
     {% assign title = title | uri_escape %}
-    {% assign url = page.url | absolute_url | url_encode %}
+    {% assign abs_url = page.url | absolute_url %}
+    {% assign url = abs_url | url_encode %}
 
     {% for share in site.data.share.platforms %}
       {% assign link = share.link | replace: 'TITLE', title | replace: 'URL', url %}
