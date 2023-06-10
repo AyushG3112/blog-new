@@ -18,7 +18,7 @@ First thing you need to do is migrate add your Github Repository to Travis and e
 
 Your `Gemfile.lock` should be compatible with the `x86_64-linux` achitecture because that is what the Travis Ruby image uses as of the date of writing of this post. If you don't you could end up seeing errors like:
 
-Your bundle only supports platforms ["x86_64-darwin"] but your local platforms are ["ruby", "x86_64-linux"]
+> Your bundle only supports platforms ["x86_64-darwin"] but your local platforms are ["ruby", "x86_64-linux"]
 {:.error}
 
 To avoid this, run the following command in your project directory:
