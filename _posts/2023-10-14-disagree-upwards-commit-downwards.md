@@ -19,4 +19,6 @@ You might not agree with a decision or have concerns about it. Nonetheless, such
 
 When you're in the leadership position, you represent the vision of the organization to the people you're overseeing. As such, it's important to present a unified front of the organization's vision to those you oversee. This helps avoid confusion, aligns everyone with the organizational objectives, and streamlines execution.
 
-And always remember to be respectful. While it's okay — and even healthy — to voice disagreements, they should be communicated through the proper channels.
+And always remember to be situationally aware and respectful. When you talk to anyone — whether they're your superiors, juniors, or peers — keep in mind that they are real people with genuine feelings and egos. Understanding how to communicate and voice your thoughts is crucial.
+
+With this in mind, I wish you luck in navigating the puzzle that is the organization.
