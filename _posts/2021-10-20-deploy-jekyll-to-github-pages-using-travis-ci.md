@@ -1,7 +1,6 @@
 ---
 title: How to deploy a jekyll site to GitHub Pages using Travis CI
 date: '2021-10-20'
-tags: jekyll github github-pages travis ci/cd
 categories: [Programming, Deployment]
 tags: [programming, github-pages, github, travis, jekyll]
 ---
